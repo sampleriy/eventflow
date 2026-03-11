@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EventFlow</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>EventFlow</h1>
+<button onclick="adminLogin()">Admin Login</button>
+</header>
+
+<section class="create-section" id="adminPanel" style="display:none">
+
+<h2>Create Event</h2>
+
+<div class="form">
+
+<input id="title" placeholder="Event Title">
+<input id="date" type="date">
+<input id="desc" placeholder="Event Description">
+
+<button onclick="createEvent()">Create Event</button>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="event-title">Upcoming Events</h2>
+
+<div id="events" class="event-container"></div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

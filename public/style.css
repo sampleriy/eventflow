@@ -1,0 +1,109 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+margin:0;
+background:#f4f6fb;
+}
+
+/* HEADER */
+
+header{
+background:linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+padding:25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+header h1{
+margin:0;
+}
+
+header button{
+background:white;
+color:#764ba2;
+border:none;
+padding:10px 15px;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}
+
+/* EVENTS */
+
+.event-title{
+text-align:center;
+margin-top:40px;
+}
+
+.event-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-top:0;
+}
+
+.card button{
+margin-top:10px;
+padding:8px 12px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.book{
+background:#28a745;
+color:white;
+}
+
+.delete{
+background:#e74c3c;
+color:white;
+}
+
+/* ADMIN */
+
+.create-section{
+background:white;
+margin:30px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.form input{
+padding:8px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.form button{
+background:#667eea;
+color:white;
+padding:10px 15px;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
